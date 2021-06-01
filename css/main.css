@@ -1,0 +1,37 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(178, 198, 235);
+    color: white;
+    text-align: center;
+    height: 180px;
+    font-size: 32px;
+ }
+
+ 
+.col-4 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 80px;
+}
+
+.carousel-inner {
+    margin-top: 80px;
+}
+
+.container {
+    height: 100%;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+
+.section{
+    position:relative;
+    height: 180px;
+    bottom: 0;
+    width: 100%;
+    font-size: 22px;
+}
+
