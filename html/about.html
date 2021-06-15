@@ -12,9 +12,10 @@
     <title>About</title>
   </head>
   <body>
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" id="customnav">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" id="customnav">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">About</a>
+    <a class="navbar-brand" href="#">Real Estate</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,27 +23,36 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#company">Company
+          <a class="nav-link" href="./index.html">Home
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#teams">Teams</a>
+          <a class="nav-link" href="./index.html#feature">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#partners">Partners</a>
+          <a class="nav-link" href="./index.html#pricing">Pricing</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#extras">Extras</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#company">Company</a>
+              <a class="dropdown-item" href="#teams">Teams</a>
+              <a class="dropdown-item" href="#partners">Partners</a>
+             <a class="dropdown-item" href="#extras">Extras</a>
         </li>
       </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </div>
 </nav>
 
 
   <div class="container">
-  
+  <div class="row justify-content-start col-cards">
     <div class="col-4" id="company">
     <h1>Company</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
@@ -56,6 +66,11 @@
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
     </div>
+    <div class="col-4">
+      <img src="../images/company.jpg" class="d-block w"  alt="image of company building" >
+    </div>
+    </div>
+    <div class="row justify-content-start col-cards">
     <div class="col-4" id="teams">
     <h1>Teams</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
@@ -69,6 +84,11 @@
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
     </div>
+    <div class="col-4">
+      <img src="../images/team.jpg" class="d-block w"  alt="image of people sitting around a table and working" >
+    </div>
+    </div>
+    <div class="row justify-content-start col-cards">
     <div class="col-4" id="partners">
     <h1>Partners</h1>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
@@ -82,6 +102,11 @@
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
     </div>
+     <div class="col-4">
+      <img src="../images/patners.jpg" class="d-block w"  alt="image of two people shaking hands" >
+    </div>
+    </div>
+    <div class="row justify-content-start col-cards">
     <div class="col-4" id="extras">
     <h1>Extras</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
@@ -95,11 +120,15 @@
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
     </div>
+     <div class="col-4">
+      <img src="../images/h01.jpg" class="d-block w"  alt="image of house" >
+    </div>
+    </div>
   </div>
 
 
 <div>
-<footer class = "section footer-classic context-dark bg-image bg-dark" style = "font-family: 'Times New Roman'; color: white">
+<footer class = "sect footer-classic context-dark bg-image bg-dark col-cards" style = "font-family: 'Times New Roman'; color: white">
 <div class="footer-container">
 <div class="col-2" id="footcolumn1">
 <p>First footer column</p>

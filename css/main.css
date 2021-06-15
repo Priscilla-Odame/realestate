@@ -1,23 +1,23 @@
-.footer {
-    position: fixed;
-    left: 0;
+footer {
+    position: relative;
+    /* left: 0; */
     bottom: 0;
     width: 100%;
     background-color: rgb(178, 198, 235);
     color: white;
     text-align: center;
     height: 180px;
-    font-size: 32px;
+    font-size: 22px;
  }
 
  
 .col-4 {
     margin-top: 80px;
     margin-bottom: 20px;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 
-.carousel-inner {
+/* .carousel-inner {
     margin-top: 80px;
 }
 
@@ -25,13 +25,35 @@
     height: 100%;
     margin-bottom: 10px;
     padding-top: 50px;
-}
+} */
 
-.section{
+/* .sect{
     position:relative;
     height: 180px;
     bottom: 0;
     width: 100%;
     font-size: 22px;
+} */
+
+.h5, h5 {
+    font-size: 1.75rem;
+    color: yellow;
 }
 
+.w {
+    width:230%;
+    height:500px
+}
+
+.cards {
+    box-shadow: 0 4px 8px 0 plum;
+    max-width: 1580px;
+    margin: auto;
+}
+
+/* .col-cards{
+    box-shadow: 0 4px 8px 0 plum;
+    width:100%;
+    margin: auto;
+
+} */
